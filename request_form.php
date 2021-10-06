@@ -5,9 +5,7 @@ include './phpqrcode/qrlib.php';
 
 function getName($name)
 {
-    $find = '@';
-    $pos = strpos($name, $find);
-    $username = substr($name, 0, $pos);
+    $username = $name . "QrCode";
     return $username;
 }
 
