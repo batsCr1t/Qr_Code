@@ -11,7 +11,7 @@ include_once("connection.php");
 		  <div class="col-xl-3 grid-margin stretch-card">
 		  <div class="card">
 		  <div class="card-body">
-		  <img style="border-radius: 50%; display: block;margin-left: auto;margin-right: auto;" src="images/faces/face1.jpg" alt="Avatar" style="width:200px">
+		  <img style="border-radius: 50%; display: block;margin-left: auto;margin-right: auto;" src="images/faces/rtf-document.png" alt="Avatar">
               <h5 style="text-align: center; color:red;">' . $contentToSave . '</h5>
 			  <p style="text-align: center;">Price of product</p>
               <button type="button" class="btn btn-outline-info btn-rounded btn-fw pull-right">Update</button>
