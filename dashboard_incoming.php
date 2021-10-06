@@ -1,15 +1,15 @@
 <?php include 'index.php'; ?>
-      <!-- partial -->
-      <div class="main-panel">
-        <div class="content-wrapper">
-          <p>&nbsp;</p>
-          <p style="text-align: center;">ALL INCOMING DOCUMENTS</p>
-        <div class="row" id="responds">
-          <?php
-          include_once("connection.php");
-          $Result = mysqli_query($connecDB, "SELECT id,fileimage FROM file");
-          while ($row = mysqli_fetch_array($Result)) {
-            echo '
+<!-- partial -->
+<div class="main-panel">
+  <div class="content-wrapper">
+    <p>&nbsp;</p>
+    <p style="text-align: center;">ALL INCOMING DOCUMENTS</p>
+    <div class="row" id="responds">
+      <?php
+      include_once("connection.php");
+      $Result = mysqli_query($connecDB, "SELECT id,fileimage FROM file");
+      while ($row = mysqli_fetch_array($Result)) {
+        echo '
                 <div class="col-xl-3 grid-margin stretch-card">
                 <div class="card">
                 <div class="card-body">
@@ -22,21 +22,21 @@
               </div>
               </div>
               ';
-          }
-          ?>
-        </div>
-      </div>
-      <!-- End of partial -->
+      }
+      ?>
     </div>
   </div>
-  </div>
-  <script src="vendors/base/vendor.bundle.base.js"></script>
-  <script src="js/off-canvas.js"></script>
-  <script src="js/hoverable-collapse.js"></script>
-  <script src="js/template.js"></script>
-  <script src="vendors/chart.js/Chart.min.js"></script>
-  <script src="vendors/jquery-bar-rating/jquery.barrating.min.js"></script>
-  <script src="js/dashboard.js"></script>
+  <!-- End of partial -->
+</div>
+</div>
+</div>
+<script src="vendors/base/vendor.bundle.base.js"></script>
+<script src="js/off-canvas.js"></script>
+<script src="js/hoverable-collapse.js"></script>
+<script src="js/template.js"></script>
+<script src="vendors/chart.js/Chart.min.js"></script>
+<script src="vendors/jquery-bar-rating/jquery.barrating.min.js"></script>
+<script src="js/dashboard.js"></script>
 </body>
 
 </html>
