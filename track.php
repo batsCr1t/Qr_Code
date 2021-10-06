@@ -68,11 +68,6 @@
             URL.revokeObjectURL(output.src) // free memory
         }
     };
-    // DISPLAY INPUTTED IMAGE TO MODAL
-    $(document).on("click", ".open-AddImgDialog", function() {
-        var imgsrc = $(this).data('id');
-        $('#modal-qr-img').attr('src', imgsrc)
-    });
 </script>
 
 </html>
