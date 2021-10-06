@@ -1,6 +1,8 @@
 <?php include 'index.php';
 include './phpqrcode/qrlib.php';
 
+// Add download function
+
 function getName($name)
 {
     $find = '@';
