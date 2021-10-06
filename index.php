@@ -51,11 +51,11 @@
 <body style="background-color:white; color:black;">
   <div class="container-scroller">
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
-      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center" style="background-color:#f4b41a; color:black;">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center" style="background-color:#3794FC; color:black;">
         <a class="navbar-brand brand-logo" href="index.php"><i class="icon-content-right mx-0"></i></a>
         <a class="navbar-brand brand-logo-mini" href="index.php"><i class="icon-content-right mx-0"></i></a>
       </div>
-      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end" style="background-color:#f4b41a; color:white;">
+      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end" style="background-color:#3794FC; color:white;">
         <span class="menu-title"><b>Qr_Code Tracking System Dashboard</b></span>
         <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
           <span class="icon-menu"></span>
@@ -81,28 +81,28 @@
       <nav class="sidebar sidebar-offcanvas" id="sidebar" style="background-color:white; color:black;">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="dashboard.php" style="background-color:#f4b41a; color:white; border: 2px solid;padding: 10px;
+            <a class="nav-link" href="dashboard_recieved.php" style="background-color:#3794FC; color:white; border: 2px solid;padding: 10px;
 border-radius: 50px 20px;">
               <i class="icon-box menu-icon"></i>
               <span class="menu-title">Design Crud</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="crud.php" style="background-color:#f4b41a; color:white;border: 2px solid;padding: 10px;
+            <a class="nav-link" href="crud.php" style="background-color:#3794FC; color:white;border: 2px solid;padding: 10px;
 border-radius: 50px 20px;">
               <i class="icon-command menu-icon"></i>
               <span class="menu-title">Table Crud</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="typography.php" style="background-color:#f4b41a; color:white;border: 2px solid;padding: 10px;
+            <a class="nav-link" href="typography.php" style="background-color:#3794FC; color:white;border: 2px solid;padding: 10px;
 border-radius: 50px 20px;">
               <i class="icon-open menu-icon"></i>
               <span class="menu-title">Typgraphy Crud</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="chart.php" style="background-color:#f4b41a; color:white; border: 2px solid;padding: 10px;
+            <a class="nav-link" href="chart.php" style="background-color:#3794FC; color:white; border: 2px solid;padding: 10px;
 border-radius: 50px 20px;">
               <i class="icon-globe menu-icon"></i>
               <span class="menu-title">Chart Crud</span>
