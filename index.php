@@ -84,7 +84,7 @@
             <a class="nav-link" href="dashboard_recieved.php" style="background-color:#3794FC; color:white; border: 2px solid;padding: 10px;
 border-radius: 50px 20px;">
               <i class="icon-box menu-icon"></i>
-              <span class="menu-title">Rquest Form</span>
+              <span class="menu-title">Tracking System</span>
             </a>
           </li>
           <li class="nav-item">

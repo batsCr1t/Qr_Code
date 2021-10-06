@@ -6,7 +6,7 @@
             <div class="col-lg-12 grid-margin stretch-card">
                 <div class="card">
                     <div class="card-body">
-                        <button type="button" class="btn btn-info btn-rounded btn-fw pull-mid" data-toggle="modal" data-target="#myModal1">Make New</button>
+                        <button type="button" class="btn btn-info btn-rounded btn-fw pull-mid" data-toggle="modal" data-target="#myModal1">Add New</button>
                         <input type="text" placeholder="Search here..." class="pull-right">
                         <!-- <label class="badge badge-danger">Pending</label>
                         <label class="badge badge-info">Pending</label>
@@ -44,13 +44,12 @@
                                                 </a>
                                                 <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
                                                     <a class="dropdown-item preview-item">
-                                                        <button type="button" class="btn  btn-fw">View</button>
+                                                        <button type="button" class="btn  btn-fw">Delete</button>
                                                     </a>
                                                     <a class="dropdown-item preview-item">
                                                         <button type="button" class="btn  btn-fw">Update</button>
                                                     </a>
                                                 </div>
-                                                <button type="button" class="btn btn-outline-danger btn-fw">Danger</button>
                                             </li>
                                         </td>
                                     </tr>
