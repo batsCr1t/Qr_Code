@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-link btn-simple">Close</button>
+                <button type="button" class="btn btn-link btn-simple"  data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
@@ -69,10 +69,6 @@
         }
     };
     // DISPLAY INPUTTED IMAGE TO MODAL
-    $(document).on("click", ".open-AddImgDialog", function() {
-        var imgsrc = $(this).data('id');
-        $('#modal-qr-img').attr('src', imgsrc)
-    });
 </script>
 
 </html>
