@@ -2,7 +2,7 @@
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
-          <a href="dashboard_incoming.php"><button type="button" class="btn btn-info btn-rounded btn-fw pull-mid">Incoming Request ( <b style="color:yellow;">1</b> )</button><a>
+          <a href="dashboard_incoming.php"><button type="button" class="btn btn-info btn-rounded btn-fw pull-mid">Received</button><a>
           <p>&nbsp;</p>
           <p style="text-align: center;">ALL RECEIVED DOCUMENTS</p>
         <div class="row" id="responds">

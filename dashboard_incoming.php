@@ -1,42 +1,74 @@
 <?php include 'index.php'; ?>
-<!-- partial -->
+<!DOCTYPE html>
+<html lang="en">
+
 <div class="main-panel">
-  <div class="content-wrapper">
-    <p>&nbsp;</p>
-    <p style="text-align: center;">ALL INCOMING DOCUMENTS</p>
-    <div class="row" id="responds">
-      <?php
-      include_once("connection.php");
-      $Result = mysqli_query($connecDB, "SELECT id,fileimage FROM file");
-      while ($row = mysqli_fetch_array($Result)) {
-        echo '
-                <div class="col-xl-3 grid-margin stretch-card">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-12 grid-margin stretch-card">
                 <div class="card">
-                <div class="card-body">
-                <img style="border-radius: 50%; display: block;margin-left: auto;margin-right: auto;" src="images/faces/rtf-document.png" alt="Avatar">
-              <h5 style="text-align: center; color:red;">' . $row["fileimage"] . '</h5>
-              <p style="text-align: center;">Price of product</p>
-              <button type="button" class="btn btn-outline-info btn-rounded btn-fw pull-right">Received</button>
-              <button type="button" class="btn btn-outline-danger btn-rounded btn-fw pull-left">Decline</button>
-              </div>
-              </div>
-              </div>
-              ';
-      }
-      ?>
+                    <div class="card-body">
+                        <form class="forms-sample">
+                            <div class="form-group" style="display:flex; align-items:center; justify-content:center; flex-direction:column">
+                                <label for="exampleInputUsername1" style="font-size: 1.5rem; margin-top: 20px">Received this request</label>
+                                <p style="color: grey">Please insert your QR image</p>
+                                <img src="./images/others/no-image-available.png" id="qr-img" width="250px" height="250px" style="margin: 25px 25px; border:1px white grey" alt="qr-code-image" />
+                                <input type="file" accept="image/*" onchange="loadFile(event)" style="border-radius: 10px; padding: 15px;">
+                            </div>
+                        </form>
+                        <button type="submit" class="btn btn-info mr-2" style="float:right;" data-toggle="modal" data-target="#myModal1">Received</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <!-- End of partial -->
 </div>
+<!--Start of Modal-->
+<div class="modal fade modal-mini modal-primary" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <div class="modal-profile">
+                    <p>Search result for</p>
+                    <img src="./images/others/no-image-available.png" id="modal-qr-img" width="250px" height="250px" style="margin: 25px 25px; border:1px white grey" alt="qr-code-image" />
+                    <p>Type: <span style="font-weight: bold;">Clearance</span></p>
+                    <p>Name: <span style="font-weight: bold;">Dandy Makabudbud</span></p>
+                    <p>Description: <span style="font-weight: bold;">Please notice me</span></p>
+                    <hr>
+                    <ul>
+                        <li>
+                            <div>
+                                3rd May 2020<br> 7:00 PM
+                            </div>
+                            <div class="item-title" style="color: green;">QR Code was generated</div>
+                        </li>
+                        <li>
+                            <div>
+                                19th May 2020<br> 3:00 PM
+                            </div>
+                            <div class="item-title" style="color: green;">Received and Approved</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-link btn-simple"  data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
 </div>
-</div>
-<script src="vendors/base/vendor.bundle.base.js"></script>
-<script src="js/off-canvas.js"></script>
-<script src="js/hoverable-collapse.js"></script>
-<script src="js/template.js"></script>
-<script src="vendors/chart.js/Chart.min.js"></script>
-<script src="vendors/jquery-bar-rating/jquery.barrating.min.js"></script>
-<script src="js/dashboard.js"></script>
-</body>
+<!--End of Modal-->
+
+<script>
+    // DISPLAY INPUTTED IMAGE
+    var output = document.getElementById('qr-img');
+    var loadFile = function(event) {
+        output.src = URL.createObjectURL(event.target.files[0]);
+        output.onload = function() {
+            URL.revokeObjectURL(output.src) // free memory
+        }
+    };
+    // DISPLAY INPUTTED IMAGE TO MODAL
+</script>
 
 </html>

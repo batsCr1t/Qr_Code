@@ -87,6 +87,7 @@ border-radius: 50px 20px;">
               <span class="menu-title">Tracking System</span>
             </a>
           </li>
+          <!--
           <li class="nav-item">
             <a class="nav-link" href="crud.php" style="background-color:#3794FC; color:white;border: 2px solid;padding: 10px;
 border-radius: 50px 20px;">
@@ -94,6 +95,8 @@ border-radius: 50px 20px;">
               <span class="menu-title">Register Document</span>
             </a>
           </li>
+-->
+           <!--
           <li class="nav-item">
             <a class="nav-link" href="typography.php" style="background-color:#3794FC; color:white;border: 2px solid;padding: 10px;
 border-radius: 50px 20px;">
@@ -101,6 +104,8 @@ border-radius: 50px 20px;">
               <span class="menu-title">Credentials</span>
             </a>
           </li>
+-->
+          <!--
           <li class="nav-item">
             <a class="nav-link" href="chart.php" style="background-color:#3794FC; color:white; border: 2px solid;padding: 10px;
 border-radius: 50px 20px;">
@@ -108,6 +113,7 @@ border-radius: 50px 20px;">
               <span class="menu-title">Reports</span>
             </a>
           </li>
+          -->
           <li class="nav-item">
             <a class="nav-link" href="request_form.php" style="background-color:#3794FC; color:white; border: 2px solid;padding: 10px;
 border-radius: 50px 20px;">
