@@ -2,8 +2,7 @@
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
-          <a href="dashboard_incoming.php"><button type="button" class="btn btn-info btn-rounded btn-fw pull-mid">Incoming Request</button><a>
-          <a href=""><button type="button" class="btn btn-info btn-rounded btn-fw pull-mid">Outgoing Request</button><a>
+          <a href="dashboard_incoming.php"><button type="button" class="btn btn-info btn-rounded btn-fw pull-mid">Incoming Request ( <b style="color:yellow;">1</b> )</button><a>
           <p>&nbsp;</p>
           <p style="text-align: center;">ALL RECIEVED DOCUMENTS</p>
         <div class="row" id="responds">
@@ -18,8 +17,7 @@
                 <img style="border-radius: 50%; display: block;margin-left: auto;margin-right: auto;" src="images/faces/rtf-document.png" alt="Avatar">
               <h5 style="text-align: center; color:red;">' . $row["fileimage"] . '</h5>
               <p style="text-align: center;">Price of product</p>
-              <button type="button" class="btn btn-outline-info btn-rounded btn-fw pull-right">Update</button>
-              <button type="button" class="btn btn-outline-danger btn-rounded btn-fw pull-left">Delete</button>
+              <button type="button" class="btn btn-outline-primary btn-rounded btn-fw pull-right">View Recieved History</button>
               </div>
               </div>
               </div>

@@ -3,7 +3,7 @@
       <div class="main-panel">
         <div class="content-wrapper">
           <a href=""><button type="button" class="btn btn-info btn-rounded btn-fw pull-mid">Incoming Request</button><a>
-          <a href=""><button type="button" class="btn btn-info btn-rounded btn-fw pull-mid">Outgoing Request</button><a>
+
           <p>&nbsp;</p>
           <p style="text-align: center;">ALL INCOMING DOCUMENTS</p>
         <div class="row" id="responds">
