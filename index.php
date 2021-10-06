@@ -84,28 +84,28 @@
             <a class="nav-link" href="dashboard_recieved.php" style="background-color:#3794FC; color:white; border: 2px solid;padding: 10px;
 border-radius: 50px 20px;">
               <i class="icon-box menu-icon"></i>
-              <span class="menu-title">REQUEST FORM</span>
+              <span class="menu-title">Rquest Form</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="crud.php" style="background-color:#3794FC; color:white;border: 2px solid;padding: 10px;
 border-radius: 50px 20px;">
               <i class="icon-command menu-icon"></i>
-              <span class="menu-title">Table Crud</span>
+              <span class="menu-title">Register Document</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="typography.php" style="background-color:#3794FC; color:white;border: 2px solid;padding: 10px;
 border-radius: 50px 20px;">
               <i class="icon-open menu-icon"></i>
-              <span class="menu-title">Typgraphy Crud</span>
+              <span class="menu-title">Credentials</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="chart.php" style="background-color:#3794FC; color:white; border: 2px solid;padding: 10px;
 border-radius: 50px 20px;">
               <i class="icon-globe menu-icon"></i>
-              <span class="menu-title">Chart Crud</span>
+              <span class="menu-title">Reports</span>
             </a>
           </li>
         </ul>
