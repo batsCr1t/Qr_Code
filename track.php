@@ -46,12 +46,25 @@
                             <div>
                                 19th May 2020<br> 3:00 PM
                             </div>
-                            <div class="item-title" style="color: green;">Received and Approved</div>
+                            <div class="item-title" style="color: green;">Received by Bate</div>
+                        </li>
+                        <li>
+                            <div>
+                                28th May 2020<br> 4:00 PM
+                            </div>
+                            <div class="item-title" style="color: green;">Received by Abdul</div>
+                        </li>
+                        <li>
+                            <div>
+                                19th June 2020<br> 1:00 PM
+                            </div>
+                            <div class="item-title" style="color: green;">Received by Philip</div>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="modal-footer">
+                <button type="button" class="btn btn-link btn-simple" data-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-link btn-simple"  data-dismiss="modal">Close</button>
             </div>
         </div>
@@ -68,7 +81,6 @@
             URL.revokeObjectURL(output.src) // free memory
         }
     };
-    // DISPLAY INPUTTED IMAGE TO MODAL
 </script>
 
 </html>
