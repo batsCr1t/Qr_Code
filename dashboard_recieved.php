@@ -17,7 +17,7 @@
                 <img style="border-radius: 50%; display: block;margin-left: auto;margin-right: auto;" src="images/faces/rtf-document.png" alt="Avatar">
               <h5 style="text-align: center; color:red;">' . $row["fileimage"] . '</h5>
               <p style="text-align: center;">Price of product</p>
-              <button type="button" class="btn btn-outline-primary btn-rounded btn-fw pull-left">View Recieved History</button>
+              <button type="button" class="btn btn-outline-primary btn-rounded btn-fw pull-left">View Received History</button>
               </div>
               </div>
               </div>

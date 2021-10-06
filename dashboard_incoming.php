@@ -2,8 +2,6 @@
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
-          <a href=""><button type="button" class="btn btn-info btn-rounded btn-fw pull-mid">Incoming Request</button><a>
-
           <p>&nbsp;</p>
           <p style="text-align: center;">ALL INCOMING DOCUMENTS</p>
         <div class="row" id="responds">
@@ -18,7 +16,7 @@
                 <img style="border-radius: 50%; display: block;margin-left: auto;margin-right: auto;" src="images/faces/rtf-document.png" alt="Avatar">
               <h5 style="text-align: center; color:red;">' . $row["fileimage"] . '</h5>
               <p style="text-align: center;">Price of product</p>
-              <button type="button" class="btn btn-outline-info btn-rounded btn-fw pull-right">Recieved</button>
+              <button type="button" class="btn btn-outline-info btn-rounded btn-fw pull-right">Received</button>
               <button type="button" class="btn btn-outline-danger btn-rounded btn-fw pull-left">Decline</button>
               </div>
               </div>

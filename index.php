@@ -108,6 +108,20 @@ border-radius: 50px 20px;">
               <span class="menu-title">Reports</span>
             </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="request_form.php" style="background-color:#3794FC; color:white; border: 2px solid;padding: 10px;
+border-radius: 50px 20px;">
+              <i class="icon-file-add menu-icon"></i>
+              <span class="menu-title">Request Form</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="track.php" style="background-color:#3794FC; color:white; border: 2px solid;padding: 10px;
+border-radius: 50px 20px;">
+              <i class="icon-location menu-icon"></i>
+              <span class="menu-title">Track</span>
+            </a>
+          </li>
         </ul>
       </nav>
       <script src="vendors/base/vendor.bundle.base.js"></script>
